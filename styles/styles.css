@@ -1,0 +1,48 @@
+body {
+  background-color: #181818;
+}
+@font-face {
+  font-family: "Minecraft";
+  src: local("Minecraft"), url(../minecraft.ttf);
+}
+body main {
+  display: flex;
+}
+body main .sidebar {
+  margin-top: 0;
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  box-shadow: 3px 0px black;
+}
+body main .sidebar a {
+  display: flex;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+}
+body main .sidebar a img {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 37px;
+  height: 100%;
+}
+body main .sidebar a p {
+  font-family: "Minecraft";
+  color: white;
+  padding-left: 20px;
+  font-size: 15px;
+  text-shadow: 3px 3px #000000;
+}
+body main .sidebar a:hover {
+  text-decoration: none;
+  background-color: #383838;
+  transition: 0.5s;
+}
+body main .sidebar a:hover p {
+  text-shadow: 3px 3px #000000;
+}
+body main .sidebar:hover {
+  overflow-y: scroll;
+}/*# sourceMappingURL=styles.css.map */
