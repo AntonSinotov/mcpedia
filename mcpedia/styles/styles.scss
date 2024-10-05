@@ -1,0 +1,112 @@
+body {
+    background-color: #181818;
+    @font-face {
+        font-family: 'Minecraft';
+        src: local('Minecraft'), url(../minecraft.ttf)
+    }
+    head {
+
+    }
+    main {
+        display: flex;
+        .sidebar {
+            margin-top: 0;
+            width: 17%;
+            height: 100%;
+            position: fixed;
+            box-shadow: 3px 0px black;
+            a {
+                display: flex;
+                text-decoration: none;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                border-radius: 20px;
+                img {
+                    margin-left: 20px;
+                    margin-top: 5px;
+                    width: 37px;
+                    height: 100%;
+                }
+                p {
+                    font-family: 'Minecraft';
+                    color: white;
+                    padding-left: 20px;
+                    font-size: 15px;
+                    text-shadow: 3px 3px #000000;
+                }
+                &:hover {
+                    text-decoration: none;
+                    background-color: #383838;
+                    transition: 0.5s;
+                    p {
+                        text-shadow: 3px 3px #000000;
+                    }
+                }
+            }
+            &:hover {
+                overflow-y: scroll;
+            }
+        }
+        .content {
+            margin-left: 20%;
+            .information {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                img {
+                    border-radius: 15px;
+                    width: 319px;
+                    height: 480px;
+                    //box-shadow: 3px 3px 3px #000000;
+                }
+                .description {
+                    margin-top: 0px;
+                    margin-left: 40px;
+                    width: 60%;
+                    p {
+                        font-family: 'Minecraft';
+                        color: white;
+                        font-size: 17px;
+                        line-height: 1.5;
+                        //text-shadow: 3px 3px #000000;
+                    }
+                    .paragraph {
+
+                    }
+                    table {
+                        width: 100%;
+                        a {
+                            color: white;
+                            text-decoration: underline;
+                            &:hover {
+                                color: black;
+                                transition: 0.3s;
+                            }
+                        }
+                        tr {
+                            p {
+                                font-size: 13px;
+                                margin-top: 2px;
+                                margin-bottom: 2px;
+                            }
+                            th {
+                                width: 35%;
+                                text-align: left;
+                                vertical-align: top;
+                            }
+                            .head {
+                                p {
+                                    text-align: center;
+                                }
+                                background-color: #383838;
+                            }
+                            td {
+                                width: 65%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
