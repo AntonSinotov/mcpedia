@@ -45,4 +45,58 @@ body main .sidebar a:hover p {
 }
 body main .sidebar:hover {
   overflow-y: scroll;
+}
+body main .content {
+  margin-left: 20%;
+}
+body main .content .information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+body main .content .information img {
+  border-radius: 15px;
+  width: 319px;
+  height: 480px;
+}
+body main .content .information .description {
+  margin-top: 0px;
+  margin-left: 40px;
+  width: 60%;
+}
+body main .content .information .description p {
+  font-family: "Minecraft";
+  color: white;
+  font-size: 17px;
+  line-height: 1.5;
+}
+body main .content .information .description table {
+  width: 100%;
+}
+body main .content .information .description table a {
+  color: white;
+  text-decoration: underline;
+}
+body main .content .information .description table a:hover {
+  color: black;
+  transition: 0.3s;
+}
+body main .content .information .description table tr p {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+body main .content .information .description table tr th {
+  width: 35%;
+  text-align: left;
+  vertical-align: top;
+}
+body main .content .information .description table tr .head {
+  background-color: #383838;
+}
+body main .content .information .description table tr .head p {
+  text-align: center;
+}
+body main .content .information .description table tr td {
+  width: 65%;
 }/*# sourceMappingURL=styles.css.map */
